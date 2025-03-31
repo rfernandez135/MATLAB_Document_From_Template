@@ -26,7 +26,7 @@
 %% Begin function
 function templatePicker
 
-fileExtRegexArray = {'*.m;*.mtmp','MATLAB Template Files (*.m, *.mtmp)'};
+fileExtRegexArray = {'*.m;','MATLAB Template Files (*.m)'};
 defaultTemplatePath = getenv('DEFAULT_MATLAB_TEMPLATE_PATH');
 
 if defaultTemplatePath==""
