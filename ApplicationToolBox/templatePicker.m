@@ -31,6 +31,7 @@ defaultTemplatePath = getenv('DEFAULT_MATLAB_TEMPLATE_PATH');
 
 if defaultTemplatePath==""
     setupTemplateEnv
+    defaultTemplatePath = getenv('DEFAULT_MATLAB_TEMPLATE_PATH');
 end
 
 
