@@ -13,7 +13,7 @@
 %
 %
 %% Outputs
-% #
+% # N/A
 %
 %
 %% Notes

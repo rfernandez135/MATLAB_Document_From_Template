@@ -39,13 +39,11 @@ if nargin < 1
         catch
             warning('Could not open default_path_storage.txt. Setting template directory to default')
             default_path = fullfile(fileparts(fileparts(mfilename('fullpath'))),'TemplateFiles');
-
         end
     else
-        default_path = fullfile(fileparts(fileparts(mfilename('fullpath'))),'TemplateFiles');        
+        default_path = fullfile(fileparts(fileparts(mfilename('fullpath'))),'TemplateFiles');
     end
     
-   
 else
     path2storageFile = fullfile(fileparts(mfilename('fullpath')),'default_path_storage.txt');    
     fid = fopen(path2storageFile,'w');
